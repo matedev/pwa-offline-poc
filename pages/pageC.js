@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function FirstPost() {
@@ -30,6 +31,12 @@ export default function FirstPost() {
             <a href="https://www.google.com">Go to Google </a>
           </h2>
         </>
+        <Image
+          src="https://source.unsplash.com/600x400/?cat"
+          alt="random cat"
+          width={600}
+          height={400}
+        />
       </main>
     </div>
   );
