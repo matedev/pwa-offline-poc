@@ -29,6 +29,12 @@ export default function Home() {
             <Link href="/pageA">Go to Page A </Link>
           </h2>
         </>
+        <Image
+          src="https://source.unsplash.com/600x400/?cat"
+          alt="random cat"
+          width={600}
+          height={400}
+        />
       </main>
 
       <footer className={styles.footer}>
